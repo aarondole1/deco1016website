@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
+    <title>Regal Crown Club</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="body2">
+    <header class="index2">
+        <div class="container">
+            <div id="logo2">
+                <div class="nav-logo nav-logo2">
+                    <a href="index.html"><img class="nav-logo2"
+                            src="./img/regal_TM_logo_horizontal_onecolor_orange_rgb_png.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="progress" id="progress2"></div>
+    </header>
+    <div id="main21">
+        <form>
+            <div class="signupform1">
+                <h1>You're Almost DONE!</h1>
+                <h5>Just a few more details to tailor your account for you!</h5>
+
+                <div class="forminputs">
+                    <p class="question">What is your Date of Birth?</p>
+                    <input type="date" name="birthdate" id="birthdate" class="inputbox" placeholder="">
+                    <div class="messages" id="birthdayvalidation"></div>
+                </div>
+
+                <div class="forminputs">
+                    <p class="question">What is your Phone Number? <a onclick="whyMenu()" class="confused"
+                            id="confused">?</a></p>
+                    <input type="Pnumber" name="phone" class="inputbox" placeholder="0123456789">
+                    <div class="messages"></div>
+                </div>
+                <div class="forminputs">
+                    <p class="question">Could you provide your E-mail Address?</p>
+                    <input type="text" name="email" class="inputbox" placeholder="example@email.com">
+                    <div class="messages"></div>
+                </div>
+                <div class="forminputs">
+                    <p class="question">Choose a Secure Password</p>
+                    <input type="password" name="password" class="inputbox" placeholder="Password">
+                    <div class="messages"></div>
+                </div>
+                <div class="forminputs">
+                    <p class="question">Confirm password</p>
+                    <input type="password" name="confirm-password" class="inputbox" placeholder="Password">
+                    <div class="messages"></div>
+                </div>
+                <div class="forminputs">
+                    <button type="continue" class="continue">Finish!</button>
+                </div>
+
+        </form>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close material-icons">close</span>
+                <p>Verify your Mobile Number and E-mail address with the account which helps us with your secuity and
+                    lets us keep in touch with you if there are any issues!</p>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="scriptpage3.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</body>
+
+</html>
